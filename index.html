@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #7F8CAA;
+        }
+
+        .nav ul li {
+            list-style: none;
+            margin: 10px;
+            padding: 12px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        .nav {
+            background-color: #537D5D;
+            position: sticky;
+            top: 0px;
+            z-index: 3;
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .box1 {
+            background-color: #64E2B7;
+            width: 240px;
+            height: 360px;
+            padding: 60px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .box2 {
+            background-color: #FBF3C1;
+            width: 240px;
+            height: 360px;
+            padding: 60px;
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        img {
+            margin-top: 20px;
+            position: relative;
+            right: 28px;
+            height: 264px;
+            border-radius: 20px;
+        }
+
+        .box1:hover,
+        .box2:hover,
+        .intro:hover {
+            transform: scale(1.05);
+        }
+
+        .intro {
+            background-color: #64E2B7;
+            margin-left: 80px;
+            margin-right: 58px;
+            padding: 60px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 50px;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <a href="">
+                <li>Home</li>
+            </a>
+            <a href="">
+                <li>About</li>
+            </a>
+            <a href="">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+    </div>
+
+    <div class="boxes">
+
+        <div class="box1">Have something unique in mind? I love tackling creative challenges and can work with you to
+            bring custom ideas to life, from concept to completion.
+
+            <img src="https://www.hubspot.com/hs-fs/hubfs/lemon%20(1).jpg?width=650&height=425&name=lemon%20(1).jpg"
+                alt="" width="300px">
+        </div>
+
+        <div class="box2">Need long-term help? I provide reliable support to keep your [site/designs/assets] up to date,
+            secure, and running smoothly—so you can focus on what you do best.
+            <img src="https://www.shutterstock.com/shutterstock/photos/1931045846/display_1500/stock-photo-the-background-is-not-the-focus-of-the-flower-plant-1931045846.jpg"
+                alt="" width="300px">
+        </div>
+    </div>
+    <div class="intro">
+        Hi, I’m Gaurav.
+        Welcome to my portfolio.
+        I’m a [your profession or creative field] with a passion for turning ideas into meaningful, impactful work.
+        Whether it’s through [design/code/writing/photography/etc.], I love creating solutions that are thoughtful,
+        engaging, and tailored to the real world. This site is a collection of projects I’m proud of — each one a step
+        in my journey of growth, learning, and creative exploration.
+        Take a look around, and feel free to reach out if you'd like to connect or collaborate.
+    </div>
+
+    <div class="icon"></div>
+</body>
+
+</html>
